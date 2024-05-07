@@ -1,0 +1,7 @@
+{"patients": [{
+    "symptoms": ["Headache"],
+    "comorbidities": ["hypertension"],
+    "name": "Asia",
+    "prescriptions": [],
+    "age": 55
+}]}
