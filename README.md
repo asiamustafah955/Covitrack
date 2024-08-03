@@ -1,54 +1,44 @@
-# COVITRACK
-COVID Symptoms Tracker
-## Project Overview
-The COVID Symptoms Tracker is a Java-based application designed to help healthcare providers monitor and record the 
-COVID-19 symptoms of patients. this project aims to simplify the process of tracking symptoms for healthcare 
-professionals.
+🩺 ## Transforming Healthcare, One Patient at a Time
+Covitrack is an innovative Java-based application designed to empower healthcare providers in the fight against COVID-19. By simplifying the process of tracking and recording patient symptoms, Covitrack enables medical professionals to deliver better care, faster.
 
-### *Key Features*:
-- Patient Registration: Healthcare providers can register patients, recording their basic information, and assigning a 
-unique patient ID.
-- Symptom Tracking: For each registered patient, healthcare providers can log daily symptoms, including fever,
-cough, shortness of breath, fatigue, and other symptoms.
-- Symptom History: Access a patient's complete symptom history to track their progress and response to treatment.
+🚀 ### Project Overview
+The COVID Symptoms Tracker offers a comprehensive solution for healthcare professionals to monitor COVID-19 symptoms with ease and accuracy.
 
-### Target Users
-This application is intended for **healthcare providers**, including doctors and nurses, who need a streamlined tool to
-record and track COVID-19 symptoms in their patients.
-An example of text with **bold** and *italic* fonts.  
+### Key Features
+🔗 Patient Registration: Effortlessly register patients and assign unique IDs.
+📊 Symptom Tracking: Log daily symptoms, including fever, cough, and more, for precise monitoring.
+🕒 Symptom History: Access complete symptom histories to track patient progress over time.
+🎯 Target Users
+Covitrack is designed for healthcare providers, including doctors, nurses, and support staff, who need a streamlined, efficient tool to manage patient symptoms.
 
-### Project Motivation
-During the pandemic, healthcare professionals faced an unprecedented surge in patient volumes, making it increasingly 
-challenging to monitor the progression of symptoms, from mild to severe, in their patients. Tragically, many lives, 
-including those of healthcare workers, were lost during this challenging period. This project is dedicated to 
-streamlining the workload of healthcare providers by systematically organizing and monitoring changes in patients' 
-symptoms and their severity. By doing so, it aims to improve patient care and outcomes while also easing the burden
-on healthcare workers
+🌟 ### Project Motivation
+The COVID-19 pandemic has challenged healthcare systems worldwide. Covitrack is dedicated to easing the burden on healthcare workers by providing a systematic way to track symptoms, improving patient outcomes and reducing workload stress.
 
-### User Story;
-- As a user, I want to be able to add a patient 
-- As a user, I want to be able to retrieve  list of patients
-- As a user, I want to be able to search patients according to symptoms 
-- As a user, I want to be able to find a patient by name from the list using patient names
-- As a user, I want to be able to update patient symptoms and comorbodities list.
-- As a user, I want to be able to add a Treatment to a patient
-- As a user, I want to be able to save Patient information
-- As a user, i want to be able to continue from where I stopped.
+📚 ### User Stories
+Add a Patient: Easily register new patients.
+Retrieve Patient List: View all registered patients at a glance.
+Search Patients: Find patients based on specific symptoms.
+Update Records: Modify patient symptoms, comorbidities, and treatments.
+Save and Continue: Save progress and resume work seamlessly.
+📖 ### Instructions for Grader
+Add New Patients: Click on "Add Patients" to begin registration.
+View All Patients: See the list of patients with the "View All Patients" button.
+Manage Data: Update symptoms, comorbidities, and treatments using the relevant buttons.
+Save Progress: Save the current state of the application with "Save".
+Load Data: Reload patient information with the "Load" button.
+🌍 ### Future Enhancements
+Optimization: Refactor code for efficiency and readability.
+Modularization: Separate the Hospital class into distinct management modules.
+📌 ### About
+Covitrack is built using Java, JSON, and a graphical user interface to provide an effective tool for healthcare providers to manage COVID-19 patient data efficiently.
 
-### Instructions for Grader
-- After running main, you add new Patients to the hospital by pressing the button addPatients
-- You can view the patients in the hospital by pressing the view all patients.
-- You can add symptoms, comorbidities, treatments and find patients by name by clicking the corresponding buttons
-- You can save the state of my application by pressing the save button
-- You can reload patients in the file by pressing load buttons.
+🤝 ### Contributing
+Contributions are welcome! Please fork this repository and submit pull requests. For major changes, open an issue first to discuss what you would like to change.
 
-### Phase 4: Task 2
-- Patient added: Joe Doe 35 years
-- Symptoms added to Joe Doe, Symptom Headache.
-- Comorbidity added to joe Doe comorbidity: Hypertension
-- prescription added to patient:  Joe Doe  prescription: tyenol.
+📫 ### Contact
+Feel free to reach out with any questions or feedback:
 
-### Phase 4: Task 3
-In the GUI, the methods that add buttons like addSymptom, addPatient etc have similar structure, we can restructure so that
-a generic method is used to reduce duplication.
-Hospital class is managing so much information, that can be broken down into patient management, event logging 
+Email: mustafahasia955@gmail.com
+LinkedIn: Asia Mustafah
+🌟 ### Acknowledgements
+A special thanks to the dedicated healthcare workers who continue to inspire this project. Together, we can make a difference.
